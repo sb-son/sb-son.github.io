@@ -9,8 +9,18 @@ body {
 }
 
 #wrapper {
+    display: flex;
     background-color: black;
 }
+
+#main {
+    flex: 1;
+}
+
+.inner {
+    min-height: 100vh;
+}
+
 
 header {
     position: relative;
@@ -22,50 +32,75 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    text-align: center;
 }
 
 .header-content {
     text-align: center;
 }
 
-h1 {
+header h1 {
     font-size: 48px;
     color: #fff;
 }
 
-h2 {
+header h2 {
     font-size: 24px;
     color: #fff;
-    margin-top: 10px;
 }
 
 nav {
     margin-top: 30px;
 }
 
-ul {
+nav ul {
     display: flex;
     justify-content: center;
     list-style-type: none;
+    padding: 0;
 }
 
-li {
+nav li {
     margin: 0 10px;
 }
 
-a {
+nav a {
     text-decoration: none;
     color: #fff;
     font-size: 18px;
 }
 
-a:hover {
+nav a:hover {
     color: #ccc;
 }
 
 section {
     padding: 40px;
 }
+
+/*.scroll-down {*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    position: absolute;*/
+/*    bottom: 30px;*/
+/*    width: 100%;*/
+/*    text-align: center;*/
+/*}*/
+
+/*#arrow-container {*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*    width: 30px;*/
+/*    height: 30px;*/
+/*    border: 2px solid #fff;*/
+/*    cursor: pointer;*/
+/*}*/
+
+/*#arrow-container:hover {*/
+/*    border-color: #ccc;*/
+/*}*/
 
 .scroll-down {
     position: absolute;
@@ -75,13 +110,15 @@ section {
 }
 
 #arrow-container {
-    width: 30px;
-    height: 30px;
-    border: 2px solid #fff;
     display: inline-block;
+}
+
+#arrow {
+    font-size: 30px;
+    color: #fff;
     cursor: pointer;
 }
 
-#arrow-container:hover {
-    border-color: #ccc;
+#arrow:hover {
+    color: #ccc;
 }
