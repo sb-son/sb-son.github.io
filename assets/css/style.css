@@ -76,6 +76,11 @@ section {
     padding: 40px;
 }
 
+.container-background {
+    background-color: #1D1C1C;
+    border-radius: 10px;
+}
+
 .scroll-down {
     position: absolute;
     bottom: 30px;
@@ -111,8 +116,29 @@ section {
     display: block;
     border-radius: 5px;
 }
-/*About Section*/
 
+a.image {
+    pointer-events: none;
+}
+/*About Section*/
+.icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.icon-container i {
+    font-size: 2rem;
+    margin: 0 10px;
+}
+
+.icon-container i:hover {
+    color: #007bff;
+    cursor: pointer;
+    transition: color 0.3s;
+}
 
 /*Contact Section*/
 
@@ -120,4 +146,10 @@ section {
 /*Footer section*/
 footer ul {
     list-style-type: none;
+}
+
+footer {
+    height: 3rem;
+    width: 100%;
+    background-color: #1D1C1C;
 }
