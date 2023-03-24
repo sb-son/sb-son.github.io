@@ -2,10 +2,8 @@ body {
     margin: 0 auto;
     padding: 0;
     box-sizing: border-box;
-}
-
-body {
     font-family: Arial, sans-serif;
+    color: #fff;
 }
 
 #wrapper {
@@ -20,7 +18,6 @@ body {
 .inner {
     min-height: 100vh;
 }
-
 
 header {
     position: relative;
@@ -79,29 +76,6 @@ section {
     padding: 40px;
 }
 
-/*.scroll-down {*/
-/*    display: flex;*/
-/*    justify-content: center;*/
-/*    position: absolute;*/
-/*    bottom: 30px;*/
-/*    width: 100%;*/
-/*    text-align: center;*/
-/*}*/
-
-/*#arrow-container {*/
-/*    display: flex;*/
-/*    justify-content: center;*/
-/*    align-items: center;*/
-/*    width: 30px;*/
-/*    height: 30px;*/
-/*    border: 2px solid #fff;*/
-/*    cursor: pointer;*/
-/*}*/
-
-/*#arrow-container:hover {*/
-/*    border-color: #ccc;*/
-/*}*/
-
 .scroll-down {
     position: absolute;
     bottom: 30px;
@@ -121,4 +95,29 @@ section {
 
 #arrow:hover {
     color: #ccc;
+}
+/*Portfolio Section*/
+.item {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.item img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 5px;
+}
+/*About Section*/
+
+
+/*Contact Section*/
+
+
+/*Footer section*/
+footer ul {
+    list-style-type: none;
 }
