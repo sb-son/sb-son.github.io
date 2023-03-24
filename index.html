@@ -38,7 +38,7 @@
                     <h1 class="text-center mb-5">Portfolio</h1>
                     <div class="row">
                         <!-- Portfolio item 1 -->
-                        <div class="col-md-4 col-sm-12">
+                        <div class="col-md-4 col-sm-12 d-flex">
                             <article class="item">
                                 <h3>Sandlot Connect</h3>
                                 <a href="#" class="image"><img src="assets/images/sandlot_connect.JPG"
@@ -46,7 +46,7 @@
                             </article>
                         </div>
                         <!-- Portfolio item 2 -->
-                        <div class="col-md-4 col-sm-12">
+                        <div class="col-md-4 col-sm-12 d-flex">
                             <article class="item">
                                 <h3>Movie Project</h3>
                                 <a href="#" class="image"><img src="assets/images/sandlot_connect.JPG"
@@ -54,7 +54,7 @@
                             </article>
                         </div>
                         <!-- Portfolio item 3 -->
-                        <div class="col-md-4 col-sm-12">
+                        <div class="col-md-4 col-sm-12 d-flex">
                             <article class="item">
                                 <h3>Weather Map</h3>
                                 <a href="#" class="image"><img src="assets/images/sandlot_connect.JPG"
@@ -67,7 +67,7 @@
 
             <section id="about">
                 <div class="container container-background p-4">
-                    <h1>About Me</h1>
+                    <h1 class="text-center">About Me</h1>
                     <p>Hi, I'm Shawn Wilson.
                         <br>
                         I'm a Full-Stack Software Developer and Army veteran. Tech has always been a passion for me. I
@@ -102,7 +102,35 @@
             </section>
 
             <section id="contact">
-                <!-- Contact content here -->
+                <div class="container container-background p-4">
+                    <h1 class="text-center">Contact</h1>
+                    <div class="icon-container">
+                        <a class="text-white" href="https://www.linkedin.com/in/shawnbwilson/">
+                            <i class="fa-brands fa-linkedin icon" title="Linkedin" data-bs-toggle="tooltip"
+                               data-bs-placement="bottom"></i>
+                        </a>
+                        <a class="text-white" href="https://github.com/sb-son">
+                            <i class="fa-brands fa-square-github icon" title="Github" data-bs-toggle="tooltip"
+                               data-bs-placement="bottom"></i>
+                        </a>
+                        <a class="text-white" href="">
+                            <i class="fa-solid fa-envelope icon" title="Email" data-bs-toggle="tooltip"
+                               data-bs-placement="bottom"></i>
+                        </a>
+                        <form action="https://formspree.io/f/mpzejovg" method="POST">
+                            <label>
+                                Your email:
+                                <input type="email" name="email">
+                            </label>
+                            <label>
+                                Your message:
+                                <textarea name="message"></textarea>
+                            </label>
+                            <!-- your other form fields go here -->
+                            <button type="submit">Send</button>
+                        </form>
+                    </div>
+                </div>
             </section>
 
             <footer id="footer" class="d-flex justify-content-center">
