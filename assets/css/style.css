@@ -4,11 +4,19 @@ body {
     box-sizing: border-box;
     font-family: Arial, sans-serif;
     color: #fff;
+    /*overflow: hidden;*/
+}
+
+header, section {
+    min-height: 100vh;
+    max-height: max-content;
+    position: relative;
 }
 
 #wrapper {
     display: flex;
-    background-color: black;
+    /*background-color: black;*/
+    background-color: #695b5b;
 }
 
 #main {
@@ -19,11 +27,17 @@ body {
     min-height: 100vh;
 }
 
+*::selection {
+    background-color: #ef5a59;
+    color: #eae6e6;
+    text-shadow: 0 0 0.25em #0d0a0b;
+}
+
 header {
     position: relative;
     width: 100%;
     height: 100vh;
-    /*background-image: url('your-background-image.jpg');*/
+    /*background-image: url();*/
     background-size: cover;
     background-position: center;
     display: flex;
@@ -84,21 +98,22 @@ section {
 .scroll-down {
     position: absolute;
     bottom: 30px;
+    right: 0;
     width: 100%;
     text-align: center;
 }
 
-#arrow-container {
+.arrow-container {
     display: inline-block;
 }
 
-#arrow {
+.arrow {
     font-size: 30px;
     color: #fff;
     cursor: pointer;
 }
 
-#arrow:hover {
+.arrow:hover {
     color: #ccc;
 }
 /*Portfolio Section*/
@@ -108,6 +123,7 @@ section {
     padding: 10px;
     margin-bottom: 20px;
     text-align: center;
+    contain: content;
 }
 
 .item img {
@@ -119,6 +135,10 @@ section {
 
 a.image {
     pointer-events: none;
+}
+
+.item > h3 {
+    white-space: nowrap;
 }
 /*About Section*/
 .icon-container {

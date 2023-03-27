@@ -27,54 +27,64 @@
                         </ul>
                     </nav>
                 </div>
-                    <div class="scroll-down">
-                        <a id="arrow-container" href="#portfolio">
-                            <i id="arrow" class="fa-sharp fa-solid fa-arrow-down fa-bounce"></i>
-                        </a>
-                    </div>
+                <div class="scroll-down">
+                    <a class="arrow-container" href="#portfolio">
+                        <i class="fa-sharp fa-solid fa-arrow-down fa-bounce arrow"></i>
+                    </a>
+                </div>
             </header>
+
             <section id="portfolio">
-                <div class="container container-background p-4">
-                    <h1 class="text-center mb-5">Portfolio</h1>
+                <div class="container container-background p-4 mb-5">
+                    <h1 class="text-center mb-4">Portfolio</h1>
                     <div class="row">
                         <!-- Portfolio item 1 -->
                         <div class="col-md-4 col-sm-12 d-flex">
                             <article class="item">
                                 <h3>Sandlot Connect</h3>
-                                <a href="#" class="image"><img src="assets/images/sandlot_connect.JPG"
+                                <div class="h-100 pb-5">
+                                <a href="#" class="image"><img class="h-100" src="assets/images/sandlot_connect.JPG"
                                                                alt="Sandlot Connect Capstone Project"></a>
+                                </div>
                             </article>
                         </div>
                         <!-- Portfolio item 2 -->
                         <div class="col-md-4 col-sm-12 d-flex">
                             <article class="item">
                                 <h3>Movie Project</h3>
-                                <a href="#" class="image"><img src="assets/images/sandlot_connect.JPG"
-                                                               alt="Sandlot Connect Capstone Project"></a>
+                                <div class="h-100 pb-5">
+                                <a href="#" class="image"><img class="h-100" src="assets/images/movie_project.JPG"
+                                                               alt="Movie Project Pair Programming"></a>
+                                </div>
                             </article>
                         </div>
                         <!-- Portfolio item 3 -->
                         <div class="col-md-4 col-sm-12 d-flex">
                             <article class="item">
                                 <h3>Weather Map</h3>
-                                <a href="#" class="image"><img src="assets/images/sandlot_connect.JPG"
-                                                               alt="Sandlot Connect Capstone Project"></a>
+                                <div class="h-100 pb-5">
+                                <a href="#" class="image"><img class="h-100" src="assets/images/weather_map.JPG"
+                                                               alt="Weather Map Solo Project"></a>
+                                </div>
                             </article>
                         </div>
                     </div>
+                </div>
+                <div class="scroll-down">
+                    <a class="arrow-container" href="#about">
+                        <i class="fa-sharp fa-solid fa-arrow-down fa-bounce arrow"></i>
+                    </a>
                 </div>
             </section>
 
             <section id="about">
                 <div class="container container-background p-4">
-                    <h1 class="text-center">About Me</h1>
-                    <p>Hi, I'm Shawn Wilson.
-                        <br>
+                    <h1 class="text-center mb-4">About Me</h1>
+                    <p class="text-center">Hi, I'm Shawn Wilson.</p>
+                    <p>
                         I'm a Full-Stack Software Developer and Army veteran. Tech has always been a passion for me. I
                         enjoy working with various technologies and am never afraid of a new challenge. Feel free to
-                        browse my portfolio to see some of the projects I've worked on. If you have any questions or
-                        would like to discuss potential collaborations, please don't hesitate to reach out through the
-                        Contact section.
+                        browse my portfolio to see some of the projects I've worked on. Visit my social links below to learn more about me. Please don't hesitate to contact me by clicking the message icon button.
                     </p>
                     <div class="icon-container">
                         <i class="fab fa-java icon" title="Java" data-bs-toggle="tooltip"
@@ -99,11 +109,16 @@
                            data-bs-placement="bottom"></i>
                     </div>
                 </div>
+                <div class="scroll-down">
+                    <a class="arrow-container" href="#contact">
+                        <i class="fa-sharp fa-solid fa-arrow-down fa-bounce arrow"></i>
+                    </a>
+                </div>
             </section>
 
-            <section id="contact">
+            <section id="contact" style="min-height: 95vh;">
                 <div class="container container-background p-4">
-                    <h1 class="text-center">Contact</h1>
+                    <h1 class="text-center mb-4">Contact</h1>
                     <div class="icon-container">
                         <a class="text-white" href="https://www.linkedin.com/in/shawnbwilson/">
                             <i class="fa-brands fa-linkedin icon" title="Linkedin" data-bs-toggle="tooltip"
@@ -113,22 +128,10 @@
                             <i class="fa-brands fa-square-github icon" title="Github" data-bs-toggle="tooltip"
                                data-bs-placement="bottom"></i>
                         </a>
-                        <a class="text-white" href="">
-                            <i class="fa-solid fa-envelope icon" title="Email" data-bs-toggle="tooltip"
+                        <a class="text-white" href="https://alumni.codeup.com/students/1770">
+                            <i class="fa-solid fa-user-graduate icon" title="Codeup Alumni" data-bs-toggle="tooltip"
                                data-bs-placement="bottom"></i>
                         </a>
-                        <form action="https://formspree.io/f/mpzejovg" method="POST">
-                            <label>
-                                Your email:
-                                <input type="email" name="email">
-                            </label>
-                            <label>
-                                Your message:
-                                <textarea name="message"></textarea>
-                            </label>
-                            <!-- your other form fields go here -->
-                            <button type="submit">Send</button>
-                        </form>
                     </div>
                 </div>
             </section>
@@ -143,6 +146,7 @@
         </div>
     </div>
 </div>
+<script src="https://formspree.io/js/formbutton-v1.min.js" defer></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
