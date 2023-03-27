@@ -15,7 +15,7 @@
 <div id="wrapper">
     <div id="main">
         <div class="inner">
-            <header id="header">
+            <header id="header" class="parent">
                 <div class="container container-background p-4">
                     <h1>Shawn Wilson</h1>
                     <h2>Full-Stack Software Developer</h2>
@@ -34,12 +34,12 @@
                 </div>
             </header>
 
-            <section id="portfolio">
+            <section id="portfolio" class="parent">
                 <div class="container container-background p-4 mb-5">
                     <h1 class="text-center mb-4">Portfolio</h1>
-                    <div class="row">
+                    <div class="row portfolio-items-container">
                         <!-- Portfolio item 1 -->
-                        <div class="col-md-4 col-sm-12 d-flex">
+                        <div class="col-md-4 col-sm-12 d-flex portfolio-item">
                             <article class="item">
                                 <h3>Sandlot Connect</h3>
                                 <div class="h-100 pb-5">
@@ -49,17 +49,17 @@
                             </article>
                         </div>
                         <!-- Portfolio item 2 -->
-                        <div class="col-md-4 col-sm-12 d-flex">
+                        <div class="col-md-4 col-sm-12 d-flex portfolio-item">
                             <article class="item">
                                 <h3>Movie Project</h3>
                                 <div class="h-100 pb-5">
-                                <a href="#" class="image"><img class="h-100" src="assets/images/movie_project.JPG"
+                                <a href="#" class="image"><img class="h-100" src="assets/images/movie_project.jpeg"
                                                                alt="Movie Project Pair Programming"></a>
                                 </div>
                             </article>
                         </div>
                         <!-- Portfolio item 3 -->
-                        <div class="col-md-4 col-sm-12 d-flex">
+                        <div class="col-md-4 col-sm-12 d-flex portfolio-item">
                             <article class="item">
                                 <h3>Weather Map</h3>
                                 <div class="h-100 pb-5">
@@ -77,14 +77,12 @@
                 </div>
             </section>
 
-            <section id="about">
+            <section id="about" class="parent">
                 <div class="container container-background p-4">
                     <h1 class="text-center mb-4">About Me</h1>
                     <p class="text-center">Hi, I'm Shawn Wilson.</p>
                     <p>
-                        I'm a Full-Stack Software Developer and Army veteran. Tech has always been a passion for me. I
-                        enjoy working with various technologies and am never afraid of a new challenge. Feel free to
-                        browse my portfolio to see some of the projects I've worked on. Visit my social links below to learn more about me. Please don't hesitate to contact me by clicking the message icon button.
+                        As a Full-Stack Software Developer and Army veteran, I bring a unique perspective and skill set to every project I work on. My passion for technology is matched by my willingness to take on new challenges and learn new technologies. In my portfolio, you can see some of the diverse projects I've developed using a variety of technologies. If you're interested in learning more about my background and experience, please visit the contact section. I'm excited to connect with potential employers and explore opportunities to collaborate on innovative projects.
                     </p>
                     <div class="icon-container">
                         <i class="fab fa-java icon" title="Java" data-bs-toggle="tooltip"
@@ -116,19 +114,20 @@
                 </div>
             </section>
 
-            <section id="contact" style="min-height: 95vh;">
+            <section id="contact" class="parent" style="min-height: 95vh;">
                 <div class="container container-background p-4">
                     <h1 class="text-center mb-4">Contact</h1>
+                    <p>You can visit my social links below to learn more about me. Email me directly by clicking the red message button on the bottom right.</p>
                     <div class="icon-container">
-                        <a class="text-white" href="https://www.linkedin.com/in/shawnbwilson/">
+                        <a class="text-white" href="https://www.linkedin.com/in/shawnbwilson/" rel="noreferrer" target="_blank">
                             <i class="fa-brands fa-linkedin icon" title="Linkedin" data-bs-toggle="tooltip"
                                data-bs-placement="bottom"></i>
                         </a>
-                        <a class="text-white" href="https://github.com/sb-son">
+                        <a class="text-white" href="https://github.com/sb-son" rel="noreferrer" target="_blank">
                             <i class="fa-brands fa-square-github icon" title="Github" data-bs-toggle="tooltip"
                                data-bs-placement="bottom"></i>
                         </a>
-                        <a class="text-white" href="https://alumni.codeup.com/students/1770">
+                        <a class="text-white" href="https://alumni.codeup.com/students/1770" rel="noreferrer" target="_blank">
                             <i class="fa-solid fa-user-graduate icon" title="Codeup Alumni" data-bs-toggle="tooltip"
                                data-bs-placement="bottom"></i>
                         </a>
