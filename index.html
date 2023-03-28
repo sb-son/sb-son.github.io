@@ -152,5 +152,30 @@
 <script src="https://code.jquery.com/jquery-3.6.4.min.js"
         integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
 <script src="assets/js/main.js"></script>
+<script>
+    let sections = document.querySelectorAll('.parent');
+    let scrollResistance = false;
+    console.log(sections)
+
+    function handleScroll() {
+        if (scrollResistance) {
+            return;
+        }
+
+        sections.forEach((section) => {
+            const sectionBottom = section.getBoundingClientRect().bottom;
+            const sectionContent = section.getBoundingClientRect().height;
+            const resistanceThreshold = 1000; // Adjust this value to control the resistance
+            if (sectionBottom > 0 && sectionBottom < resistanceThreshold || sectionContent > 0 && sectionContent < resistanceThreshold) {
+                scrollResistance = true;
+                setTimeout(() => {
+                    scrollResistance = false;
+                }, 500); // Adjust the duration of the resistance effect
+            }
+        });
+    }
+
+    document.addEventListener('scroll', handleScroll, { passive: true });
+</script>
 </body>
 </html>
