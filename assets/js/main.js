@@ -20,7 +20,45 @@ $(document).ready(function () {
     window.formbutton = window.formbutton || function () {
         (formbutton.q = formbutton.q || []).push(arguments)
     };
-    formbutton("create", {action: "https://formspree.io/f/mpzejovg"})
+    formbutton("create", {
+        action: "https://formspree.io/f/mpzejovg",
+        styles: {
+            fontFamily: '"Lato", sans-serif',
+            button: {
+                background: "#729E92"
+            },
+            title: {
+                background: "#729E92",
+                letterSpacing: "0.05em",
+                textTransform: "uppercase"
+            }
+        },
+        buttonImg: "<i class='fa-solid fa-message' style='font-size:28px'/>",
+        // buttonImg: "<i class='fa-solid fa-messages' style='height: 36px; width: 36px;' />",
+        fields: [{
+            name: "name",
+            type: "text",
+            label: "Your Name",
+            placeholder: "Your name",
+            required: true,
+        },
+            {
+                name: "email",
+                type: "email",
+                label: "Your Email",
+                placeholder: "Your Email",
+                required: true
+            },
+            {
+                name: "Message",
+                type: "textarea",
+                placeholder: "Message me!",
+            },
+            {
+                type: "submit"
+            }]
+    })
+
 
 
 })
