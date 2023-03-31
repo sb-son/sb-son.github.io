@@ -120,21 +120,14 @@ nav a:hover {
     margin-bottom: 20px;
     text-align: center;
     contain: content;
+    display: grid;
+    align-content: center;
 }
 
-/*.portfolio-item {*/
-/*    transition: transform 0.3s, opacity 0.3s;*/
-/*}*/
+.item:hover {
+    cursor: pointer;
+}
 
-/*.portfolio-items-container:hover .portfolio-item {*/
-/*    opacity: 1;*/
-/*    transform: scale(1.05);*/
-/*    z-index: 10; !* This ensures the hovered item is above others *!*/
-/*}*/
-
-/*.portfolio-items-container:hover .portfolio-item {*/
-/*    opacity: 0.6;*/
-/*}*/
 .portfolio-item {
     transition: transform 0.3s, opacity 0.3s;
 }

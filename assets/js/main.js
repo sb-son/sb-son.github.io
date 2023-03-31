@@ -34,7 +34,6 @@ $(document).ready(function () {
             }
         },
         buttonImg: "<i class='fa-solid fa-message' style='font-size:28px'/>",
-        // buttonImg: "<i class='fa-solid fa-messages' style='height: 36px; width: 36px;' />",
         fields: [{
             name: "name",
             type: "text",
@@ -42,23 +41,26 @@ $(document).ready(function () {
             placeholder: "Your name",
             required: true,
         },
-            {
-                name: "email",
-                type: "email",
-                label: "Your Email",
-                placeholder: "Your Email",
-                required: true
-            },
-            {
-                name: "Message",
-                type: "textarea",
-                placeholder: "Message me!",
-            },
-            {
-                type: "submit"
-            }]
+        {
+            name: "email",
+            type: "email",
+            label: "Your Email",
+            placeholder: "Your Email",
+            required: true
+        },
+        {
+            name: "Message",
+            type: "textarea",
+            placeholder: "Message me!",
+        },
+        {
+            type: "submit"
+        }]
     })
 
-
+    //show portfolio item info
+    $(".portfolio-item").click(function () {
+        $(this).find(".portfolio-info").slideToggle();
+    });
 
 })
