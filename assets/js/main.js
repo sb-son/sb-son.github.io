@@ -62,5 +62,31 @@ $(document).ready(function () {
     $(".portfolio-item").click(function () {
         $(this).find(".portfolio-info").slideToggle();
     });
+    
+    const projects = [
+        {
+            id: 'sandlot-connect',
+            svg: createSandlotConnectSvg(),
+        },
+        {
+            id: 'movie-project',
+            svg: createMovieProjectSvg(),
+        },
+        {
+            id: 'weather-map',
+            svg: createWeatherMapSvg(),
+        }
+    ];
 
+    projects.forEach(project => {
+        const listItem = $(`<li class="svg-container-${project.id}">`)
+        console.log(project)
+        listItem.html(project.svg)
+        $('.portfolio-container ul').append(listItem)
+
+    })
+
+    $('.sandlot-connect-info').click(function () {
+
+    })
 })

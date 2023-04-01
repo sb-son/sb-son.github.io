@@ -152,6 +152,18 @@ nav a:hover {
     border-radius: 5px;
 }
 
+.portfolio-container ul {
+    list-style-type: none;
+}
+
+.info-hover:hover {
+    cursor: pointer;
+}
+
+.indent {
+    text-indent: 2em
+}
+
 a.image {
     pointer-events: none;
 }
