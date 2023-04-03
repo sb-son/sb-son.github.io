@@ -77,8 +77,9 @@ $(document).ready(function () {
                     <p>SQL</p>
                     <p>AWS</p>
                     </div>`,
-            links: `<div>
-                    <a></a>
+            links: `<div class="links">
+                        <a href="https://sandlotconnect.xyz:8080/" target="_blank">Live Site <i class="fa-solid fa-arrow-up-right-from-square fa-lg"></i></a>
+                        <a href="https://github.com/Sandlot-Connect/sandlot-connect" target="_blank">Code <i class="fa-brands fa-github icon fa-lg"></i></a>
                     </div>`
         },
         {
@@ -94,8 +95,8 @@ $(document).ready(function () {
                         <p>HTML</p>
                         <p>OMDB API</p>
                     </div>`,
-            links: `<div>
-                    <a></a>
+            links: `<div class="links">
+                        <a href="https://github.com/wilson-hall/movie-project" target="_blank">Code <i class="fa-brands fa-github icon fa-lg"></i></a>
                     </div>`
         },
         {
@@ -111,19 +112,25 @@ $(document).ready(function () {
                         <p>OpenWeatherMap API</p>
                         <p>Mapbox API</p>
                     </div>`,
-            links: `<div>
-                        <a></a>
+            links: `<div class="links">
+                        <a href="https://github.com/sb-son/weathermap" target="_blank">Code <i class="fa-brands fa-github icon fa-lg"></i></a>
                     </div>`
         }
     ];
 
-    projects.forEach(project => {
+    projects.forEach((project, index) => {
         const listItem = $(`<li class="svg-container-${project.id} portfolio-item container container-background mb-5">`);
         const contentWrapper = $('<div class="content-wrapper">');
+        const portfolioContainer = $('.portfolio-container ul');
+
         contentWrapper.html(project.svg);
         contentWrapper.append(`<div class="portfolio-content d-flex flex-column justify-content-center">${project.desc}${project.tech}${project.links}</div>`);
         listItem.append(contentWrapper);
-        $('.portfolio-container ul').append(listItem);
+        portfolioContainer.append(listItem);
+
+        if (index !== projects.length -1) {
+            portfolioContainer.append('<hr>');
+        }
     });
 
     $('.sandlot-connect-info').click(function () {
