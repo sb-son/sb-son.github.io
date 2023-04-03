@@ -128,22 +128,22 @@ nav a:hover {
     cursor: pointer;
 }
 
-.portfolio-item {
-    transition: transform 0.3s, opacity 0.3s;
-}
+/*.portfolio-item {*/
+/*    transition: transform 0.3s, opacity 0.3s;*/
+/*}*/
 
 /* Hover effect for the portfolio item */
-.portfolio-item:hover {
-    opacity: 1!important;
-    filter: none!important;
-    transform: scale(1.05);
-    z-index: 10;
-}
+/*.portfolio-item:hover {*/
+/*    opacity: 1!important;*/
+/*    filter: none!important;*/
+/*    transform: scale(1.05);*/
+/*    z-index: 10;*/
+/*}*/
 
-.portfolio-items-container:hover > .portfolio-item {
-    opacity: 0.6;
-    filter: blur(2px);
-}
+/*.portfolio-items-container:hover > .portfolio-item {*/
+/*    opacity: 0.6;*/
+/*    filter: blur(2px);*/
+/*}*/
 
 .item img {
     width: 100%;
@@ -154,6 +154,8 @@ nav a:hover {
 
 .portfolio-container ul {
     list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
 .info-hover:hover {
@@ -170,6 +172,44 @@ a.image {
 
 .item > h3 {
     white-space: nowrap;
+}
+.portfolio-item {
+    display: flex;
+}
+
+.content-wrapper {
+    display: flex;
+}
+
+.content-wrapper p {
+    margin: 0;
+}
+
+.content-wrapper > svg {
+    width: 640px;
+    height: 640px;
+    flex-shrink: 0;
+}
+.tech {
+    display: flex;
+    gap: 1em;
+    justify-content: center;
+    margin-top: 1em;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.tech p {
+    background-color: #fff;
+    box-shadow: 0 0 10px rgb(0 0 0 / 10%);
+    color: #000!important;
+    font-family: Mulish,sans-serif!important;
+    font-weight: 600!important;
+    padding: 1rem 1.3rem;
+}
+
+.portfolio-content h3 {
+    text-align: center;
 }
 /*About Section*/
 .icon-container {
@@ -200,7 +240,7 @@ footer ul {
 }
 
 footer {
-    height: 3rem;
+    height: 5rem;
     width: 100%;
     background-color: #1D1C1C;
 }

@@ -68,30 +68,63 @@ $(document).ready(function () {
         {
             id: 'sandlot-connect',
             svg: createSandlotConnectSvg(),
-            desc: `Project Name: Sandlot Connect\n
-             Sandlot Connect is a social media platform inspired by the grassroots resurgence of sandlot baseball across Texas and beyond. Within this web application, users can create a new baseball team or request to join an existing team. When a user creates a new team they have access to requests and can approve or dismiss requests to join the team. Once on a team, members have a private space where they can make a post and communicate with group members. The application is built using Java and Spring Boot on the back-end, with Thymeleaf for the front-end.`
+            desc: `<h3>Sandlot Connect</h3>
+             <p>Sandlot Connect is a comprehensive social media and team management platform built for baseball enthusiasts. It offers users the ability to create or join a team, manage requests, and communicate privately with teammates.</p>`,
+            tech: `<div class="tech">
+                    <p>Java</p>
+                    <p>Spring Boot</p>
+                    <p>Thymeleaf</p>
+                    <p>SQL</p>
+                    <p>AWS</p>
+                    </div>`,
+            links: `<div>
+                    <a></a>
+                    </div>`
         },
         {
             id: 'movie-project',
             svg: createMovieProjectSvg(),
-            desc: `Project Name: Movie Project\n
-                    This project is a movie application that allows users to add, edit, and delete movies, as well as rate them. It features a user-friendly interface and integrates with OMDB API for movie posters. The app is built with HTML, CSS, JavaScript, and jQuery for a responsive user experience and uses fetch API and RESTful APIs to communicate with a server for storage of movie data.`
+            desc: `<h3>Movie Project</h3>
+                    <p>This project is a movie application that allows users to add, edit, and delete movies, as well as rate them. It features a user-friendly interface and integrates with OMDB API for movie posters.</p>`,
+            tech: `<div class="tech">
+                        <p>Javascript</p>
+                        <p>Jquery</p>
+                        <p>Bootstrap 5</p>
+                        <p>CSS</p>
+                        <p>HTML</p>
+                        <p>OMDB API</p>
+                    </div>`,
+            links: `<div>
+                    <a></a>
+                    </div>`
         },
         {
             id: 'weather-map',
             svg: createWeatherMapSvg(),
-            desc: `Project Name: Weather Map\n
-                    This project is a movie application that allows users to add, edit, and delete movies, as well as rate them. It features a user-friendly interface and integrates with OMDB API for movie posters. The app is built with HTML, CSS, JavaScript, and jQuery for a responsive user experience and uses fetch API and RESTful APIs to communicate with a server for storage of movie data.`
+            desc: `<h3>Weather Map</h3>
+                    <p>Weather Map is an application that provides current weather conditions and a five-day forecast for any location. The application includes a map view and a location search feature, making it easy for users to stay updated on weather conditions.</p>`,
+            tech: `<div class="tech">
+                        <p>Javascript</p>
+                        <p>AJAX</p>
+                        <p>CSS</p>
+                        <p>HTML</p>
+                        <p>OpenWeatherMap API</p>
+                        <p>Mapbox API</p>
+                    </div>`,
+            links: `<div>
+                        <a></a>
+                    </div>`
         }
     ];
 
     projects.forEach(project => {
-        const listItem = $(`<li class="svg-container-${project.id} d-grid">`)
-        listItem.html(project.svg);
-        listItem.append(`<p>${project.desc}</p>`);
-        $('.portfolio-container ul').append(listItem)
-
-    })
+        const listItem = $(`<li class="svg-container-${project.id} portfolio-item container container-background mb-5">`);
+        const contentWrapper = $('<div class="content-wrapper">');
+        contentWrapper.html(project.svg);
+        contentWrapper.append(`<div class="portfolio-content d-flex flex-column justify-content-center">${project.desc}${project.tech}${project.links}</div>`);
+        listItem.append(contentWrapper);
+        $('.portfolio-container ul').append(listItem);
+    });
 
     $('.sandlot-connect-info').click(function () {
 
