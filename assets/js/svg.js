@@ -151,8 +151,8 @@ const createSandlotConnectSvg = () => {
                 <foreignObject x="47" y="245" width="540" height="540">
                     <div xmlns="http://www.w3.org/1999/xhtml">
                         <!-- Portfolio items go here -->
-                        <img style="width: 537px; height: 320px" src="assets/images/sandlot_connect.gif"
-                             alt="Sandlot Connect Capstone Project image">
+                        <video autoplay loop muted style="width: 537px; height: 320px; object-fit: fill" src="assets/images/sandlot_connect.mov"
+                             alt="Sandlot Connect Capstone Project video"></video>
                     </div>
                 </foreignObject>
                 </svg>`
@@ -309,8 +309,8 @@ const createMovieProjectSvg = () => {
                 <foreignObject x="47" y="245" width="540" height="540">
                     <div xmlns="http://www.w3.org/1999/xhtml">
                         <!-- Portfolio items go here -->
-                        <img style="width: 537px; height: 320px" src="assets/images/movie_project.jpeg"
-                             alt="Movie Project image">
+                        <video autoplay loop muted style="width: 537px; height: 320px; object-fit: cover" src="assets/images/movie_project.mov"
+                             alt="Movie Project video"></video>
                     </div>
                 </foreignObject>
                 </svg>`
@@ -467,8 +467,8 @@ const createWeatherMapSvg = () => {
                 <foreignObject x="47" y="245" width="540" height="540">
                     <div xmlns="http://www.w3.org/1999/xhtml">
                         <!-- Portfolio items go here -->
-                        <img style="width: 537px; height: 320px" src="assets/images/weather_map.JPG"
-                             alt="Weather Map project image">
+                        <video autoplay loop muted style="width: 537px; height: 320px; object-fit: fill;" src="assets/images/weather_map.mov"
+                             alt="Weather Map project video"></video>
                     </div>
                 </foreignObject>
                 </svg>`
