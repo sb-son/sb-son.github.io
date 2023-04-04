@@ -8,7 +8,6 @@ body {
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
     color: #fff;
-    /*overflow: hidden;*/
 }
 
 header, section {
@@ -20,7 +19,6 @@ header, section {
 
 #wrapper {
     display: flex;
-    /*background-color: black;*/
     background-color: #695b5b;
 }
 
@@ -58,11 +56,16 @@ header {
 header h1 {
     font-size: 48px;
     color: #fff;
+    font-family: 'League Spartan', sans-serif;
 }
 
 header h2 {
     font-size: 24px;
     color: #fff;
+}
+
+h1 {
+    font-family: 'League Spartan', sans-serif;
 }
 
 nav {
@@ -117,45 +120,6 @@ nav a:hover {
     color: #ccc;
 }
 /*Portfolio Section*/
-.item {
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    padding: 10px;
-    margin-bottom: 20px;
-    text-align: center;
-    contain: content;
-    display: grid;
-    align-content: center;
-}
-
-.item:hover {
-    cursor: pointer;
-}
-
-/*.portfolio-item {*/
-/*    transition: transform 0.3s, opacity 0.3s;*/
-/*}*/
-
-/* Hover effect for the portfolio item */
-/*.portfolio-item:hover {*/
-/*    opacity: 1!important;*/
-/*    filter: none!important;*/
-/*    transform: scale(1.05);*/
-/*    z-index: 10;*/
-/*}*/
-
-/*.portfolio-items-container:hover > .portfolio-item {*/
-/*    opacity: 0.6;*/
-/*    filter: blur(2px);*/
-/*}*/
-
-.item img {
-    width: 100%;
-    height: auto;
-    display: block;
-    border-radius: 5px;
-}
-
 .portfolio-container ul {
     list-style-type: none;
     margin: 0;
@@ -166,17 +130,10 @@ nav a:hover {
     cursor: pointer;
 }
 
-.indent {
-    text-indent: 2em
-}
-
 a.image {
     pointer-events: none;
 }
 
-.item > h3 {
-    white-space: nowrap;
-}
 .portfolio-item {
     display: flex;
 }
@@ -196,6 +153,7 @@ a.image {
     position: relative;
     top: -48px;
 }
+
 .tech {
     display: flex;
     gap: 1em;
@@ -268,6 +226,10 @@ a.image {
     transition: color 0.3s;
 }
 
+.about-paragraph {
+    text-indent: 2em;
+    font-weight: 300;
+}
 /*Contact Section*/
 
 
@@ -280,4 +242,37 @@ footer {
     height: 5rem;
     width: 100%;
     background-color: #1D1C1C;
+}
+
+/*fixes portfolio section on smaller screens*/
+@media (max-width: 992px) {
+    .portfolio-item {
+        flex-direction: column;
+        margin-bottom: 2em;
+    }
+
+    .portfolio-item:last-of-type {
+        padding-bottom: 2.5em;
+    }
+
+    .content-wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .content-wrapper > svg {
+        width: 100%;
+        height: auto;
+        top: 0;
+    }
+
+    .tech {
+        justify-content: center;
+    }
+
+    .portfolio-header {
+        position: relative;
+        bottom: -50px;
+        font-size: 3em;
+    }
 }

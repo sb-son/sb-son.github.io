@@ -119,7 +119,7 @@ $(document).ready(function () {
     ];
 
     projects.forEach((project, index) => {
-        const listItem = $(`<li class="svg-container-${project.id} portfolio-item container container-background mb-5">`);
+        const listItem = $(`<li class="svg-container-${project.id} portfolio-item container container-background p-0">`);
         const contentWrapper = $('<div class="content-wrapper">');
         const portfolioContainer = $('.portfolio-container ul');
 
@@ -129,7 +129,7 @@ $(document).ready(function () {
         portfolioContainer.append(listItem);
 
         if (index !== projects.length -1) {
-            portfolioContainer.append('<hr>');
+            portfolioContainer.append('<hr class="m-0">');
         }
     });
 
