@@ -154,6 +154,10 @@ a.image {
     top: -48px;
 }
 
+.content-wrapper:nth-of-type(2n) {
+    flex-direction: row-reverse;
+}
+
 .tech {
     display: flex;
     gap: 1em;
@@ -251,7 +255,7 @@ footer {
         margin-bottom: 2em;
     }
 
-    .portfolio-item:last-of-type {
+    .portfolio-content:last-of-type {
         padding-bottom: 2.5em;
     }
 
