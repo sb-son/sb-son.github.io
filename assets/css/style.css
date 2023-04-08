@@ -255,8 +255,8 @@ footer {
         margin-bottom: 2em;
     }
 
-    .portfolio-content:last-of-type {
-        padding-bottom: 2.5em;
+    .portfolio-items:last-of-type {
+        padding-bottom: 0.5em;
     }
 
     .content-wrapper {

@@ -1,7 +1,7 @@
 "use strict";
 
 const createSandlotConnectSvg = () => {
-    return `<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"
+    return `<svg id="sandlot-connect-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"
                              width="640" height="640" viewBox="0 75 640 640" xml:space="preserve">
                 <desc>Created with Fabric.js 4.6.0</desc>
                             <defs></defs>
