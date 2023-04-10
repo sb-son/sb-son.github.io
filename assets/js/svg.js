@@ -141,6 +141,9 @@ const createSandlotConnectSvg = () => {
                           vector-effect="non-scaling-stroke" transform=" translate(0, 0)"
                           d="M -2.43562 -2.27826 L 2.43562 2.2782500000000003" stroke-linecap="round"/>
                 </g>
+                <g transform="matrix(1 0 0 1 153 222)" style="" id="ltF7amzF024IwXox6hf3-"  >
+                    <text xml:space="preserve" font-family="Open Sans" font-size="8" font-style="normal" font-weight="normal" line-height="1" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-32.72" y="-3.97" >Project</tspan></text>
+                </g>
                 <g transform="matrix(1 0 0 1 214.12 236.98)" style="" id="fHnG6BIuaj2sjLt--FyAn">
                     <text xml:space="preserve" font-size="9" font-style="normal"
                           font-weight="normal"
@@ -159,7 +162,7 @@ const createSandlotConnectSvg = () => {
 }
 
 const createMovieProjectSvg = () => {
-    return `<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"
+    return `<svg id="movie-project-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"
                              width="640" height="640" viewBox="0 75 640 640" xml:space="preserve">
                 <desc>Created with Fabric.js 4.6.0</desc>
                 <defs></defs>
@@ -250,22 +253,22 @@ const createMovieProjectSvg = () => {
                           vector-effect="non-scaling-stroke" transform=" translate(0, 0)" d="M -6.51266 0 L 6.51266 0"
                           stroke-linecap="round"/>
                 </g>
-                <g transform="matrix(-1 0 0 1 188.93 214.44)" id="65DBRdCzGsykLRtH8xTcG">
-                    <path style="stroke: rgb(195,198,199); stroke-width: 2; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-opacity: 0; fill-rule: nonzero; opacity: 1;"
-                          vector-effect="non-scaling-stroke" transform=" translate(0, 0)" d="M 0 -4.87226 L 0 4.87226"
-                          stroke-linecap="round"/>
-                </g>
                 <g class="movie-project-info info-hover">
+                    <g transform="matrix(-1 0 0 1 188.93 214.44)" id="65DBRdCzGsykLRtH8xTcG">
+                        <path style="stroke: rgb(195,198,199); stroke-width: 2; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-opacity: 0; fill-rule: nonzero; opacity: 1;"
+                              vector-effect="non-scaling-stroke" transform=" translate(0, 0)" d="M 0 -4.87226 L 0 4.87226"
+                              stroke-linecap="round"/>
+                    </g>
                     <g transform="matrix(0 -1 1 0 188.93 214.44)" id="wq2wkJIJaAYsskXQezREk">
                     <rect x="-10" y="-10" width="20" height="20" fill="transparent" />
                         <path style="stroke: rgb(195,198,199); stroke-width: 2; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-opacity: 0; fill-rule: nonzero; opacity: 1;"
                               vector-effect="non-scaling-stroke" transform=" translate(0, 0)" d="M 0 -4.87226 L 0 4.87226"
                               stroke-linecap="round"/>
                     </g>
-                    <g transform="matrix(1 0 0 1 52.03 233.79)" id="qsRgZEazA_pDMxTGxE2Va">
-                        <path style="stroke: rgb(195,198,199); stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-opacity: 0; fill-rule: nonzero; opacity: 1;"
-                              vector-effect="non-scaling-stroke" transform=" translate(0, 0)" d="M 0 0" stroke-linecap="round"/>
                     </g>
+                <g transform="matrix(1 0 0 1 52.03 233.79)" id="qsRgZEazA_pDMxTGxE2Va">
+                    <path style="stroke: rgb(195,198,199); stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-opacity: 0; fill-rule: nonzero; opacity: 1;"
+                          vector-effect="non-scaling-stroke" transform=" translate(0, 0)" d="M 0 0" stroke-linecap="round"/>
                 </g>
                 <g transform="matrix(1 0 0 1 54.97 230.39)" id="vGEjj67_jYxLa_FhuIF02">
                     <path style="stroke: rgb(195,198,199); stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-opacity: 0; fill-rule: nonzero; opacity: 1;"
@@ -298,6 +301,9 @@ const createMovieProjectSvg = () => {
                     <path style="stroke: rgb(195,198,199); stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-opacity: 0; fill-rule: nonzero; opacity: 1;"
                           vector-effect="non-scaling-stroke" transform=" translate(0, 0)"
                           d="M -2.43562 -2.27826 L 2.43562 2.2782500000000003" stroke-linecap="round"/>
+                </g>
+                <g transform="matrix(1 0 0 1 153 222)" style="" id="ltF7amzF024IwXox6hf3-"  >
+                    <text xml:space="preserve" font-family="Open Sans" font-size="8" font-style="normal" font-weight="normal" line-height="1" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-32.72" y="-3.97" >Project</tspan></text>
                 </g>
                 <g transform="matrix(1 0 0 1 214.12 236.98)" style="" id="fHnG6BIuaj2sjLt--FyAn">
                     <text xml:space="preserve" font-size="9" font-style="normal"
@@ -317,7 +323,7 @@ const createMovieProjectSvg = () => {
 }
 
 const createWeatherMapSvg = () => {
-    return `<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"
+    return `<svg id="weather-map-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"
                              width="640" height="640" viewBox="0 75 640 640" xml:space="preserve">
                 <desc>Created with Fabric.js 4.6.0</desc>
                 <defs></defs>
@@ -408,22 +414,22 @@ const createWeatherMapSvg = () => {
                           vector-effect="non-scaling-stroke" transform=" translate(0, 0)" d="M -6.51266 0 L 6.51266 0"
                           stroke-linecap="round"/>
                 </g>
-                <g transform="matrix(-1 0 0 1 188.93 214.44)" id="65DBRdCzGsykLRtH8xTcG">
-                    <path style="stroke: rgb(195,198,199); stroke-width: 2; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-opacity: 0; fill-rule: nonzero; opacity: 1;"
-                          vector-effect="non-scaling-stroke" transform=" translate(0, 0)" d="M 0 -4.87226 L 0 4.87226"
-                          stroke-linecap="round"/>
-                </g>
                 <g class="weather-map-info info-hover">
+                    <g transform="matrix(-1 0 0 1 188.93 214.44)" id="65DBRdCzGsykLRtH8xTcG">
+                        <path style="stroke: rgb(195,198,199); stroke-width: 2; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-opacity: 0; fill-rule: nonzero; opacity: 1;"
+                              vector-effect="non-scaling-stroke" transform=" translate(0, 0)" d="M 0 -4.87226 L 0 4.87226"
+                              stroke-linecap="round"/>
+                    </g>
                     <g transform="matrix(0 -1 1 0 188.93 214.44)" id="wq2wkJIJaAYsskXQezREk">
                     <rect x="-10" y="-10" width="20" height="20" fill="transparent" />
                         <path style="stroke: rgb(195,198,199); stroke-width: 2; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-opacity: 0; fill-rule: nonzero; opacity: 1;"
                               vector-effect="non-scaling-stroke" transform=" translate(0, 0)" d="M 0 -4.87226 L 0 4.87226"
                               stroke-linecap="round"/>
                     </g>
-                    <g transform="matrix(1 0 0 1 52.03 233.79)" id="qsRgZEazA_pDMxTGxE2Va">
-                        <path style="stroke: rgb(195,198,199); stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-opacity: 0; fill-rule: nonzero; opacity: 1;"
-                              vector-effect="non-scaling-stroke" transform=" translate(0, 0)" d="M 0 0" stroke-linecap="round"/>
-                    </g>
+                </g>
+                <g transform="matrix(1 0 0 1 52.03 233.79)" id="qsRgZEazA_pDMxTGxE2Va">
+                    <path style="stroke: rgb(195,198,199); stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-opacity: 0; fill-rule: nonzero; opacity: 1;"
+                          vector-effect="non-scaling-stroke" transform=" translate(0, 0)" d="M 0 0" stroke-linecap="round"/>
                 </g>
                 <g transform="matrix(1 0 0 1 54.97 230.39)" id="vGEjj67_jYxLa_FhuIF02">
                     <path style="stroke: rgb(195,198,199); stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-opacity: 0; fill-rule: nonzero; opacity: 1;"
@@ -456,6 +462,9 @@ const createWeatherMapSvg = () => {
                     <path style="stroke: rgb(195,198,199); stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-opacity: 0; fill-rule: nonzero; opacity: 1;"
                           vector-effect="non-scaling-stroke" transform=" translate(0, 0)"
                           d="M -2.43562 -2.27826 L 2.43562 2.2782500000000003" stroke-linecap="round"/>
+                </g>
+                <g transform="matrix(1 0 0 1 153 222)" style="" id="ltF7amzF024IwXox6hf3-"  >
+                    <text xml:space="preserve" font-family="Open Sans" font-size="8" font-style="normal" font-weight="normal" line-height="1" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-32.72" y="-3.97" >Project</tspan></text>
                 </g>
                 <g transform="matrix(1 0 0 1 214.12 236.98)" style="" id="fHnG6BIuaj2sjLt--FyAn">
                     <text xml:space="preserve" font-size="9" font-style="normal"

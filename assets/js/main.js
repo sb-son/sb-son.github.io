@@ -148,7 +148,87 @@ $(document).ready(function () {
         path.setAttributeNS(null, "stroke-linecap", "round");
 
         const group2 = document.createElementNS("http://www.w3.org/2000/svg", "g");
-        group2.setAttributeNS(null, "transform", "matrix(1 0 0 1 222 222)");
+        group2.setAttributeNS(null, "transform", "matrix(1 0 0 1 220 222)");
+        group2.setAttributeNS(null, "id", "xtG7amzF024IwXox6heX-");
+
+        const text = document.createElementNS("http://www.w3.org/2000/svg", "text");
+        text.setAttributeNS(null, "font-family", "Open Sans");
+        text.setAttributeNS(null, "font-size", "8");
+        text.setAttributeNS(null, "font-style", "normal");
+        text.setAttributeNS(null, "font-weight", "normal");
+        text.setAttributeNS(null, "line-height", "1");
+
+        text.setAttributeNS(null, "style", "stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1; white-space: pre;");
+
+        const tspan = document.createElementNS("http://www.w3.org/2000/svg", "tspan");
+        tspan.setAttributeNS(null, "x", "-32.72");
+        tspan.setAttributeNS(null, "y", "-3.97");
+        tspan.textContent = "More Info";
+
+        // Append the elements to the SVG
+        text.appendChild(tspan);
+        group2.appendChild(text);
+        group1.appendChild(path);
+        svgElement.appendChild(group1);
+        svgElement.appendChild(group2);
+        $(this).remove()
+    })
+
+    $('.movie-project-info').click(function () {
+        const svgElement = document.getElementById('movie-project-svg')
+        const group1 = document.createElementNS("http://www.w3.org/2000/svg", "g");
+        group1.setAttributeNS(null, "transform", "matrix(1.16 0 0 1 206 215)");
+        group1.setAttributeNS(null, "id", "j9lAsksOFOSfoZqwxwS58");
+
+        const path = document.createElementNS("http://www.w3.org/2000/svg", "path");
+        path.setAttributeNS(null, "style", "stroke: rgb(0,0,0); stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-opacity: 0; fill-rule: nonzero; opacity: 1;");
+        path.setAttributeNS(null, "vector-effect", "non-scaling-stroke");
+        path.setAttributeNS(null, "transform", "translate(0, 0)");
+        path.setAttributeNS(null, "d", "M -29.74359 8.22419 L -29.74359 0.83744 L -29.74359 0.83744 C -29.74359 -4.16716 -26.2577 -8.22419 -21.95763 -8.22419 L 24.405569999999997 -8.22419 L 24.405569999999997 -8.22419 C 27.353679999999997 -8.22419 29.743599999999997 -5.4427 29.743599999999997 -2.0115600000000002 L 29.743599999999997 8.22419 z");
+        path.setAttributeNS(null, "stroke-linecap", "round");
+
+        const group2 = document.createElementNS("http://www.w3.org/2000/svg", "g");
+        group2.setAttributeNS(null, "transform", "matrix(1 0 0 1 220 222)");
+        group2.setAttributeNS(null, "id", "xtG7amzF024IwXox6heX-");
+
+        const text = document.createElementNS("http://www.w3.org/2000/svg", "text");
+        text.setAttributeNS(null, "font-family", "Open Sans");
+        text.setAttributeNS(null, "font-size", "8");
+        text.setAttributeNS(null, "font-style", "normal");
+        text.setAttributeNS(null, "font-weight", "normal");
+        text.setAttributeNS(null, "line-height", "1");
+
+        text.setAttributeNS(null, "style", "stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1; white-space: pre;");
+
+        const tspan = document.createElementNS("http://www.w3.org/2000/svg", "tspan");
+        tspan.setAttributeNS(null, "x", "-32.72");
+        tspan.setAttributeNS(null, "y", "-3.97");
+        tspan.textContent = "More Info";
+
+        // Append the elements to the SVG
+        text.appendChild(tspan);
+        group2.appendChild(text);
+        group1.appendChild(path);
+        svgElement.appendChild(group1);
+        svgElement.appendChild(group2);
+        $(this).remove()
+    })
+
+    $('.weather-map-info').click(function () {
+        const svgElement = document.getElementById('weather-map-svg')
+        const group1 = document.createElementNS("http://www.w3.org/2000/svg", "g");
+        group1.setAttributeNS(null, "transform", "matrix(1.16 0 0 1 206 215)");
+        group1.setAttributeNS(null, "id", "j9lAsksOFOSfoZqwxwS58");
+
+        const path = document.createElementNS("http://www.w3.org/2000/svg", "path");
+        path.setAttributeNS(null, "style", "stroke: rgb(0,0,0); stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-opacity: 0; fill-rule: nonzero; opacity: 1;");
+        path.setAttributeNS(null, "vector-effect", "non-scaling-stroke");
+        path.setAttributeNS(null, "transform", "translate(0, 0)");
+        path.setAttributeNS(null, "d", "M -29.74359 8.22419 L -29.74359 0.83744 L -29.74359 0.83744 C -29.74359 -4.16716 -26.2577 -8.22419 -21.95763 -8.22419 L 24.405569999999997 -8.22419 L 24.405569999999997 -8.22419 C 27.353679999999997 -8.22419 29.743599999999997 -5.4427 29.743599999999997 -2.0115600000000002 L 29.743599999999997 8.22419 z");
+        path.setAttributeNS(null, "stroke-linecap", "round");
+
+        const group2 = document.createElementNS("http://www.w3.org/2000/svg", "g");
+        group2.setAttributeNS(null, "transform", "matrix(1 0 0 1 220 222)");
         group2.setAttributeNS(null, "id", "xtG7amzF024IwXox6heX-");
 
         const text = document.createElementNS("http://www.w3.org/2000/svg", "text");
