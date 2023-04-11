@@ -1,7 +1,7 @@
 "use strict";
 
 const createSandlotConnectSvg = () => {
-    return `<svg id="sandlot-connect-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"
+    return `<svg id="sandlot-connect-svg" class="svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"
                              width="640" height="640" viewBox="0 75 640 640" xml:space="preserve">
                 <desc>Created with Fabric.js 4.6.0</desc>
                             <defs></defs>
@@ -92,7 +92,7 @@ const createSandlotConnectSvg = () => {
                           vector-effect="non-scaling-stroke" transform=" translate(0, 0)" d="M -6.51266 0 L 6.51266 0"
                           stroke-linecap="round"/>
                 </g>
-                <g class="sandlot-connect-info info-hover">
+                <g class="sandlot-connect-info info-hover new-tab">
                     <g transform="matrix(-1 0 0 1 188.93 214.44)" id="65DBRdCzGsykLRtH8xTcG">
                     <rect x="-10" y="-10" width="20" height="20" fill="transparent" />
                         <path style="stroke: rgb(195,198,199); stroke-width: 2; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-opacity: 0; fill-rule: nonzero; opacity: 1;"
@@ -141,8 +141,13 @@ const createSandlotConnectSvg = () => {
                           vector-effect="non-scaling-stroke" transform=" translate(0, 0)"
                           d="M -2.43562 -2.27826 L 2.43562 2.2782500000000003" stroke-linecap="round"/>
                 </g>
-                <g transform="matrix(1 0 0 1 153 222)" style="" id="ltF7amzF024IwXox6hf3-"  >
+                <g class="project-tab info-hover">
+                    <g transform="matrix(-1 0 0 1 150 200)" id="65DBRdCzGsykLRtH8xTcG">
+                        <rect x="-20" y="6" width="67" height="18" fill="transparent" />
+                    </g>
+                    <g transform="matrix(1 0 0 1 153 222)" style="" id="ltF7amzF024IwXox6hf3-"  >
                     <text xml:space="preserve" font-family="Open Sans" font-size="8" font-style="normal" font-weight="normal" line-height="1" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-32.72" y="-3.97" >Project</tspan></text>
+                </g>
                 </g>
                 <g transform="matrix(1 0 0 1 214.12 236.98)" style="" id="fHnG6BIuaj2sjLt--FyAn">
                     <text xml:space="preserve" font-size="9" font-style="normal"
@@ -154,15 +159,19 @@ const createSandlotConnectSvg = () => {
                 <foreignObject x="47" y="245" width="540" height="540">
                     <div xmlns="http://www.w3.org/1999/xhtml">
                         <!-- Portfolio items go here -->
-                        <video autoplay loop muted style="width: 537px; height: 320px; object-fit: fill" src="assets/images/sandlot_connect.mov"
+                        <video autoplay loop muted playsinline class="video-1" style="width: 537px; height: 320px; object-fit: fill" src="assets/images/sandlot_connect.mov"
                              alt="Sandlot Connect Capstone Project video"></video>
+                        <div style="display: none;" class="info-1">
+                            <h2>More Info</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut dui nunc. Vestibulum eu odio a justo accumsan mollis.</p>
+                        </div>     
                     </div>
                 </foreignObject>
                 </svg>`
 }
 
 const createMovieProjectSvg = () => {
-    return `<svg id="movie-project-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"
+    return `<svg id="movie-project-svg" class="svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"
                              width="640" height="640" viewBox="0 75 640 640" xml:space="preserve">
                 <desc>Created with Fabric.js 4.6.0</desc>
                 <defs></defs>
@@ -253,7 +262,7 @@ const createMovieProjectSvg = () => {
                           vector-effect="non-scaling-stroke" transform=" translate(0, 0)" d="M -6.51266 0 L 6.51266 0"
                           stroke-linecap="round"/>
                 </g>
-                <g class="movie-project-info info-hover">
+                <g class="movie-project-info info-hover new-tab">
                     <g transform="matrix(-1 0 0 1 188.93 214.44)" id="65DBRdCzGsykLRtH8xTcG">
                         <path style="stroke: rgb(195,198,199); stroke-width: 2; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-opacity: 0; fill-rule: nonzero; opacity: 1;"
                               vector-effect="non-scaling-stroke" transform=" translate(0, 0)" d="M 0 -4.87226 L 0 4.87226"
@@ -265,7 +274,7 @@ const createMovieProjectSvg = () => {
                               vector-effect="non-scaling-stroke" transform=" translate(0, 0)" d="M 0 -4.87226 L 0 4.87226"
                               stroke-linecap="round"/>
                     </g>
-                    </g>
+                </g>
                 <g transform="matrix(1 0 0 1 52.03 233.79)" id="qsRgZEazA_pDMxTGxE2Va">
                     <path style="stroke: rgb(195,198,199); stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-opacity: 0; fill-rule: nonzero; opacity: 1;"
                           vector-effect="non-scaling-stroke" transform=" translate(0, 0)" d="M 0 0" stroke-linecap="round"/>
@@ -301,6 +310,13 @@ const createMovieProjectSvg = () => {
                     <path style="stroke: rgb(195,198,199); stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-opacity: 0; fill-rule: nonzero; opacity: 1;"
                           vector-effect="non-scaling-stroke" transform=" translate(0, 0)"
                           d="M -2.43562 -2.27826 L 2.43562 2.2782500000000003" stroke-linecap="round"/>
+                </g>
+                <g class="project-tab info-hover">
+                    <g transform="matrix(-1 0 0 1 150 200)" id="65DBRdCzGsykLRtH8xTcG">
+                        <rect x="-20" y="6" width="67" height="18" fill="transparent" />
+                    </g>
+                    <g transform="matrix(1 0 0 1 153 222)" style="" id="ltF7amzF024IwXox6hf3-"  >
+                    <text xml:space="preserve" font-family="Open Sans" font-size="8" font-style="normal" font-weight="normal" line-height="1" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-32.72" y="-3.97" >Project</tspan></text>
                 </g>
                 <g transform="matrix(1 0 0 1 153 222)" style="" id="ltF7amzF024IwXox6hf3-"  >
                     <text xml:space="preserve" font-family="Open Sans" font-size="8" font-style="normal" font-weight="normal" line-height="1" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-32.72" y="-3.97" >Project</tspan></text>
@@ -315,15 +331,19 @@ const createMovieProjectSvg = () => {
                 <foreignObject x="47" y="245" width="540" height="540">
                     <div xmlns="http://www.w3.org/1999/xhtml">
                         <!-- Portfolio items go here -->
-                        <video autoplay loop muted style="width: 537px; height: 320px; object-fit: cover" src="assets/images/movie_project.mov"
+                        <video autoplay loop muted playsinline class="video-2" style="width: 537px; height: 320px; object-fit: cover" src="assets/images/movie_project.mov"
                              alt="Movie Project video"></video>
+                        <div style="display: none;" class="info-2">
+                            <h2>More Info</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut dui nunc. Vestibulum eu odio a justo accumsan mollis. Aliquam volutpat nibh vitae tortor bibendum, non suscipit leo pulvinar. Proin bibendum ac turpis id pellentesque. Nam id lectus ac ante aliquet luctus. Donec venenatis urna dolor, eget maximus ipsum sollicitudin a. Fusce vel eros at metus sodales auctor. Integer finibus hendrerit felis, eu egestas lectus hendrerit eu. Nam eget risus ex. Mauris imperdiet risus non semper dictum.</p>
+                        </div>
                     </div>
                 </foreignObject>
                 </svg>`
 }
 
 const createWeatherMapSvg = () => {
-    return `<svg id="weather-map-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"
+    return `<svg id="weather-map-svg" class="svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"
                              width="640" height="640" viewBox="0 75 640 640" xml:space="preserve">
                 <desc>Created with Fabric.js 4.6.0</desc>
                 <defs></defs>
@@ -414,7 +434,7 @@ const createWeatherMapSvg = () => {
                           vector-effect="non-scaling-stroke" transform=" translate(0, 0)" d="M -6.51266 0 L 6.51266 0"
                           stroke-linecap="round"/>
                 </g>
-                <g class="weather-map-info info-hover">
+                <g class="weather-map-info info-hover new-tab">
                     <g transform="matrix(-1 0 0 1 188.93 214.44)" id="65DBRdCzGsykLRtH8xTcG">
                         <path style="stroke: rgb(195,198,199); stroke-width: 2; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-opacity: 0; fill-rule: nonzero; opacity: 1;"
                               vector-effect="non-scaling-stroke" transform=" translate(0, 0)" d="M 0 -4.87226 L 0 4.87226"
@@ -463,7 +483,11 @@ const createWeatherMapSvg = () => {
                           vector-effect="non-scaling-stroke" transform=" translate(0, 0)"
                           d="M -2.43562 -2.27826 L 2.43562 2.2782500000000003" stroke-linecap="round"/>
                 </g>
-                <g transform="matrix(1 0 0 1 153 222)" style="" id="ltF7amzF024IwXox6hf3-"  >
+                <g class="project-tab info-hover">
+                    <g transform="matrix(-1 0 0 1 150 200)" id="65DBRdCzGsykLRtH8xTcG">
+                        <rect x="-20" y="6" width="67" height="18" fill="transparent" />
+                    </g>
+                    <g transform="matrix(1 0 0 1 153 222)" style="" id="ltF7amzF024IwXox6hf3-"  >
                     <text xml:space="preserve" font-family="Open Sans" font-size="8" font-style="normal" font-weight="normal" line-height="1" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-32.72" y="-3.97" >Project</tspan></text>
                 </g>
                 <g transform="matrix(1 0 0 1 214.12 236.98)" style="" id="fHnG6BIuaj2sjLt--FyAn">
@@ -476,8 +500,12 @@ const createWeatherMapSvg = () => {
                 <foreignObject x="47" y="245" width="540" height="540">
                     <div xmlns="http://www.w3.org/1999/xhtml">
                         <!-- Portfolio items go here -->
-                        <video autoplay loop muted style="width: 537px; height: 320px; object-fit: fill;" src="assets/images/weather_map.mov"
+                        <video autoplay loop muted playsinline class="video-3" style="width: 537px; height: 320px; object-fit: fill;" src="assets/images/weather_map.mov"
                              alt="Weather Map project video"></video>
+                        <div style="display: none;" class="info-3">
+                            <h2>More Info</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut dui nunc. Vestibulum eu odio a justo accumsan mollis. Aliquam volutpat nibh vitae tortor bibendum, non suscipit leo pulvinar. Proin bibendum ac turpis id pellentesque. Nam id lectus ac ante aliquet luctus. Donec venenatis urna dolor, eget maximus ipsum sollicitudin a. Fusce vel eros at metus sodales auctor. Integer finibus hendrerit felis, eu egestas lectus hendrerit eu. Nam eget risus ex. Mauris imperdiet risus non semper dictum.</p>
+                        </div>
                     </div>
                 </foreignObject>
                 </svg>`

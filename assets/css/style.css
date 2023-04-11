@@ -210,6 +210,10 @@ a.image {
     cursor: pointer;
     transition: color 0.3s;
 }
+
+.more-info {
+    cursor: pointer;
+}
 /*About Section*/
 .icon-container {
     display: flex;
