@@ -166,10 +166,16 @@ $(document).ready(function () {
             const parentGroup = document.createElementNS("http://www.w3.org/2000/svg", "g");
             parentGroup.setAttributeNS(null, "class", "more-info-tab");
 
+            parentGroup.addEventListener('click', function () {
+                const videoElement = svgElement.querySelector('foreignObject div video');
+                const hiddenDivElement = svgElement.querySelector('foreignObject div div');
+                videoElement.style.display = 'none';
+                hiddenDivElement.style.display = 'block';
+            })
+
             const group1 = document.createElementNS("http://www.w3.org/2000/svg", "g");
             group1.setAttributeNS(null, "transform", "matrix(1.16 0 0 1 206 215)");
             group1.setAttributeNS(null, "id", "j9lAsksOFOSfoZqwxwS58");
-            group1.setAttributeNS(null, "class", "more-info-tab");
 
             const path = document.createElementNS("http://www.w3.org/2000/svg", "path");
             path.setAttributeNS(null, "style", "stroke: rgb(0,0,0); stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-opacity: 0; fill-rule: nonzero; opacity: 1;");
@@ -218,11 +224,29 @@ $(document).ready(function () {
             parentGroup.appendChild(group3);
             svgElement.appendChild(parentGroup)
 
-            svgElement.children().style.display = 'none'
+            const videoElement = svgElement.querySelector('foreignObject div video');
+            const hiddenDivElement = svgElement.querySelector('foreignObject div div');
+            videoElement.style.display = 'none';
+            hiddenDivElement.style.display = 'block';
             $(this).remove()
         })
 
+        $('.project-tab').click(function () {
+            const svgElement = this.closest('svg');
+            const videoElement = svgElement.querySelector('foreignObject div video');
+            const hiddenDivElement = svgElement.querySelector('foreignObject div div');
+            hiddenDivElement.style.display = 'none';
+            videoElement.style.display = 'block';
 
+        })
+
+        // $('.more-info-tab').click(function () {
+        //     const svgElement = this.closest('svg');
+        //     const videoElement = svgElement.querySelector('foreignObject div video');
+        //     const hiddenDivElement = svgElement.querySelector('foreignObject div div');
+        //     videoElement.style.display = 'none';
+        //     hiddenDivElement.style.display = 'block';
+        // })
     })
 
 

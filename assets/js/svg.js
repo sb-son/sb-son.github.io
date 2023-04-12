@@ -146,8 +146,8 @@ const createSandlotConnectSvg = () => {
                         <rect x="-20" y="6" width="67" height="18" fill="transparent" />
                     </g>
                     <g transform="matrix(1 0 0 1 153 222)" style="" id="ltF7amzF024IwXox6hf3-"  >
-                    <text xml:space="preserve" font-family="Open Sans" font-size="8" font-style="normal" font-weight="normal" line-height="1" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-32.72" y="-3.97" >Project</tspan></text>
-                </g>
+                        <text xml:space="preserve" font-family="Open Sans" font-size="8" font-style="normal" font-weight="normal" line-height="1" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-32.72" y="-3.97" >Project</tspan></text>
+                    </g>
                 </g>
                 <g transform="matrix(1 0 0 1 214.12 236.98)" style="" id="fHnG6BIuaj2sjLt--FyAn">
                     <text xml:space="preserve" font-size="9" font-style="normal"
@@ -161,7 +161,7 @@ const createSandlotConnectSvg = () => {
                         <!-- Portfolio items go here -->
                         <video autoplay loop muted playsinline class="video-1" style="width: 537px; height: 320px; object-fit: fill" src="assets/images/sandlot_connect.mov"
                              alt="Sandlot Connect Capstone Project video"></video>
-                        <div style="display: none;" class="info-1">
+                        <div style="display: none;" class="info-1 p-2">
                             <h2>More Info</h2>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut dui nunc. Vestibulum eu odio a justo accumsan mollis.</p>
                         </div>     
@@ -317,9 +317,7 @@ const createMovieProjectSvg = () => {
                     </g>
                     <g transform="matrix(1 0 0 1 153 222)" style="" id="ltF7amzF024IwXox6hf3-"  >
                     <text xml:space="preserve" font-family="Open Sans" font-size="8" font-style="normal" font-weight="normal" line-height="1" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-32.72" y="-3.97" >Project</tspan></text>
-                </g>
-                <g transform="matrix(1 0 0 1 153 222)" style="" id="ltF7amzF024IwXox6hf3-"  >
-                    <text xml:space="preserve" font-family="Open Sans" font-size="8" font-style="normal" font-weight="normal" line-height="1" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-32.72" y="-3.97" >Project</tspan></text>
+                    </g>
                 </g>
                 <g transform="matrix(1 0 0 1 214.12 236.98)" style="" id="fHnG6BIuaj2sjLt--FyAn">
                     <text xml:space="preserve" font-size="9" font-style="normal"
@@ -327,7 +325,7 @@ const createMovieProjectSvg = () => {
                           line-height="1"
                           style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(195,198,199); fill-rule: nonzero; opacity: 1; white-space: pre;"><tspan x="-91.5" y="-1.09">https://github.com/wilson-hall/movie-project</tspan></text>
                 </g>
-                    <!-- Adding a foreignObject for the portfolio items -->
+                <!-- Adding a foreignObject for the portfolio items -->
                 <foreignObject x="47" y="245" width="540" height="540">
                     <div xmlns="http://www.w3.org/1999/xhtml">
                         <!-- Portfolio items go here -->
@@ -489,6 +487,7 @@ const createWeatherMapSvg = () => {
                     </g>
                     <g transform="matrix(1 0 0 1 153 222)" style="" id="ltF7amzF024IwXox6hf3-"  >
                     <text xml:space="preserve" font-family="Open Sans" font-size="8" font-style="normal" font-weight="normal" line-height="1" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-32.72" y="-3.97" >Project</tspan></text>
+                    </g>
                 </g>
                 <g transform="matrix(1 0 0 1 214.12 236.98)" style="" id="fHnG6BIuaj2sjLt--FyAn">
                     <text xml:space="preserve" font-size="9" font-style="normal"
