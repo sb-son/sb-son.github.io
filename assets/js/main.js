@@ -145,10 +145,15 @@ $(document).ready(function () {
     projects.forEach((project, index) => {
         const listItem = $(`<li class="svg-container-${project.id} portfolio-item container container-background p-0">`);
         const contentWrapper = $('<div class="content-wrapper">');
-        const portfolioContainer = $('.portfolio-container ul');
 
         contentWrapper.html(project.svg);
         contentWrapper.append(`<div class="portfolio-content d-flex flex-column justify-content-center">${project.desc}${project.tech}${project.links}</div>`);
+
+        //Reverse the flex-direction for odd-indexed content-wrapper elements
+        if (index % 2 === 1) {
+            contentWrapper.css('flex-direction', 'row-reverse');
+        }
+
         listItem.append(contentWrapper);
         fragment.appendChild(listItem[0]);
 
@@ -179,8 +184,6 @@ $(document).ready(function () {
     //handles click functions for each of the svgs and creates new elements
     const svgs = document.querySelectorAll('.svg')
     svgs.forEach((svg, index) => {
-        const video = svg.querySelector('foreignObject div video');
-        const info = svg.querySelector('foreignObject div div');
         $('.new-tab').click(function () {
             const svgElement = this.closest('svg');
 
@@ -258,7 +261,6 @@ $(document).ready(function () {
             const hiddenDivElement = svgElement.querySelector('foreignObject div div');
             hiddenDivElement.style.display = 'none';
             videoElement.style.display = 'block';
-
         })
     })
 })
