@@ -80,13 +80,7 @@ $(document).ready(function () {
             links: `<div class="links">
                         <a href="https://sandlotconnect.xyz:8080/" target="_blank">Live Site <i class="fa-solid fa-arrow-up-right-from-square fa-lg"></i></a>
                         <a href="https://github.com/Sandlot-Connect/sandlot-connect" target="_blank">Code <i class="fa-brands fa-github icon fa-lg"></i></a>
-                    </div>`,
-            moreInfo: `<h2>My contributions</h2>
-            <p>● Engineered a comprehensive social media and team management platform for baseball enthusiasts, streamlining team coordination and fostering community engagement.
-            <br>
-            ● Utilized Java, Spring Boot, Thymeleaf, JavaScript, HTML, and CSS to enable users to seamlessly create/join teams, manage requests, and communicate privately among teammates.
-            <br>
-            ● Collaborated with a team to design and implement a robust database structure, optimizing data storage and retrieval to enhance user experience and support the platform's diverse functionalities.</p>`
+                    </div>`
         },
         {
             id: 'movie-project',
@@ -103,11 +97,7 @@ $(document).ready(function () {
                     </div>`,
             links: `<div class="links">
                         <a href="https://github.com/wilson-hall/movie-project" target="_blank">Code <i class="fa-brands fa-github icon fa-lg"></i></a>
-                    </div>`,
-            moreInfo: `<h2>My contributions</h2> 
-            <p>● Designed a movie application that allows users to add, edit, and delete movies, as well as rate them using HTML, CSS, JavaScript, and jQuery.
-            <br>
-            ● Integrated OMDB API for movie posters and leveraged HTML, CSS, JavaScript, and jQuery to build a user-friendly interface, while employing fetch API and RESTful APIs for efficient movie data storage.</p>`
+                    </div>`
         },
         {
             id: 'weather-map',
@@ -124,11 +114,7 @@ $(document).ready(function () {
                     </div>`,
             links: `<div class="links">
                         <a href="https://github.com/sb-son/weathermap" target="_blank">Code <i class="fa-brands fa-github icon fa-lg"></i></a>
-                    </div>`,
-            moreInfo: `<h2>My contributions</h2>
-            <p>● Developed a versatile weather application that delivers real-time weather conditions and a five-day forecast for any location, improving users' ability to plan and prepare for weather changes.
-            <br>
-            ● Crafted an interactive interface using HTML, CSS, jQuery, AJAX, and APIs from OpenWeatherMap and Mapbox, featuring a map view and location search functionality for quick access to weather updates.</p>`
+                    </div>`
         }
     ];
 
