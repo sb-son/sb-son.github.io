@@ -25,10 +25,10 @@ $(document).ready(function () {
         styles: {
             fontFamily: '"Lato", sans-serif',
             button: {
-                background: "#729E92"
+                background: "#D54634",
             },
             title: {
-                background: "#729E92",
+                background: "#D54634",
                 letterSpacing: "0.05em",
                 textTransform: "uppercase"
             }
@@ -57,6 +57,27 @@ $(document).ready(function () {
             type: "submit"
         }]
     })
+
+    //Get the form button element
+    let formButton = document.querySelector('.button');
+
+    //check if the user has scrolled to the bottom section of the page
+    function isBottomSectionVisible() {
+        let bottomSection = document.getElementById('contact');
+        let bottomSectionRect = bottomSection.getBoundingClientRect();
+        return bottomSectionRect.top <= window.innerHeight;
+    }
+
+    function addNotification() {
+        formButton.classList.add('notification');
+    }
+
+    //scroll event listener. add notification to message button
+    window.addEventListener('scroll', function() {
+        if (isBottomSectionVisible()) {
+            addNotification();
+        }
+    });
 
     //show portfolio item info
     $(".portfolio-item").click(function () {
