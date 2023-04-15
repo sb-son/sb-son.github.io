@@ -161,7 +161,11 @@ const createSandlotConnectSvg = () => {
                         <!-- Portfolio items go here -->
                         <video autoplay loop muted playsinline class="video-1" style="width: 537px; height: 320px; object-fit: fill" src="assets/images/sandlot_connect.mov"
                              alt="Sandlot Connect Capstone Project video"></video>
-                        <div style="display: none;" class="info p-2">
+                        <div style="display: none; width: 537px;
+                            height: 320px;
+                            object-fit: fill;
+                            background: white;
+                            color: black;" class="info p-2">
                             <h2>My contributions</h2>
                             <p>● Engineered a comprehensive social media and team management platform for baseball enthusiasts, streamlining team coordination and fostering community engagement.
                             <br>
@@ -335,7 +339,11 @@ const createMovieProjectSvg = () => {
                         <!-- Portfolio items go here -->
                         <video autoplay loop muted playsinline class="video-2" style="width: 537px; height: 320px; object-fit: cover" src="assets/images/movie_project.mov"
                              alt="Movie Project video"></video>
-                        <div style="display: none;" class="info p-2">
+                        <div style="display: none; width: 537px;
+                            height: 320px;
+                            object-fit: fill;
+                            background: white;
+                            color: black;" class="info p-2">
                             <h2>My contributions</h2> 
                             <p>● Designed a movie application that allows users to add, edit, and delete movies, as well as rate them using HTML, CSS, JavaScript, and jQuery.
                             <br>
@@ -507,7 +515,11 @@ const createWeatherMapSvg = () => {
                         <!-- Portfolio items go here -->
                         <video autoplay loop muted playsinline class="video-3" style="width: 537px; height: 320px; object-fit: fill;" src="assets/images/weather_map.mov"
                              alt="Weather Map project video"></video>
-                        <div style="display: none;" class="info p-2">
+                        <div style="display: none; width: 537px;
+                            height: 320px;
+                            object-fit: fill;
+                            background: white;
+                            color: black;" class="info p-2">
                             <h2>My contributions</h2>
                             <p>● Developed a versatile weather application that delivers real-time weather conditions and a five-day forecast for any location, improving users' ability to plan and prepare for weather changes.
                             <br>

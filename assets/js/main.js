@@ -58,7 +58,6 @@ $(document).ready(function () {
         }]
     })
 
-    //Get the form button element
     let formButton = document.querySelector('.button');
 
     //check if the user has scrolled to the bottom section of the page
