@@ -17,6 +17,19 @@ header, section {
     padding: 40px;
 }
 
+header {
+    position: relative;
+    width: 100%;
+    height: 96vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
 #wrapper {
     display: flex;
     background-color: #695b5b;
@@ -34,19 +47,6 @@ header, section {
     background-color: #ff7070;
     color: #eae6e6;
     text-shadow: 0 0 0.25em #0d0a0b;
-}
-
-header {
-    position: relative;
-    width: 100%;
-    height: 97vh;
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    text-align: center;
 }
 
 .header-content {
