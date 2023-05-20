@@ -92,11 +92,13 @@ const createSandlotConnectSvg = () => {
                           vector-effect="non-scaling-stroke" transform=" translate(0, 0)" d="M -6.51266 0 L 6.51266 0"
                           stroke-linecap="round"/>
                 </g>
-                <g transform="matrix(1 0 0 1 214.12 190)" style="" id="fHnG6BIuaj2sjLt--Fyln">
-                    <text xml:space="preserve" font-size="11" font-style="normal"
-                          font-weight="normal"
+                <g transform="matrix(1 0 0 1 194.25 185)" class="click-here" style="" id="fHnG6BIuaj2sjLt--Fyln">
+                    <rect x="-100" y="-16" width="234" height="25" fill="#4c4c4c" stroke="#4c4c4c" stroke-width="1" rx="4" ry="4" />
+                    <polygon points="-15,10 -5,20 5,10" fill="#f44336" stroke="none" />
+                    <text xml:space="preserve" font-size="12" font-style="normal"
+                          font-weight="bold"
                           line-height="1"
-                          style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(195,198,199); fill-rule: nonzero; opacity: 1; white-space: pre;"><tspan x="-91.5" y="-1.09">Click Here to View More Information!</tspan></text>
+                          style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: white; fill-rule: nonzero; opacity: 1; white-space: pre;"><tspan x="-91.5" y="-1.09">Click Here to View More Information!</tspan></text>
                 </g>
                 <g class="sandlot-connect-info info-hover new-tab">
                     <g transform="matrix(-1 0 0 1 188.93 214.44)" id="65DBRdCzGsykLRtH8xTcG">

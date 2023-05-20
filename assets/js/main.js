@@ -167,11 +167,15 @@ $(document).ready(function () {
 
     //Pause the video if it is not within the users view
     const videoElement = document.querySelector('video');
+    const clickHereElement = document.querySelector('.click-here');
     const observer = new IntersectionObserver((entries, observer) => {
         entries.forEach(entry => {
             if(entry.isIntersecting) {
                 // Video is in the viewport
                 videoElement.play();
+                bounceAnimation();
+                Promise.all(
+                    clickHereElement.getAnimations({ subtree: true }).map((animation) => animation.finished)).then(() => clickHereElement.remove());
             } else {
                 // Video is not in the viewport
                 videoElement.pause();
@@ -185,6 +189,7 @@ $(document).ready(function () {
     const svgs = document.querySelectorAll('.svg')
     svgs.forEach((svg, index) => {
         $('.new-tab').click(function () {
+            hideClickHereNotification();
             const svgElement = this.closest('svg');
 
             const parentGroup = document.createElementNS("http://www.w3.org/2000/svg", "g");
@@ -263,4 +268,23 @@ $(document).ready(function () {
             videoElement.style.display = 'block';
         })
     })
+
+    //remove click-here notification
+    function hideClickHereNotification() {
+        clickHereElement.style.display = 'none';
+    }
+
+    const bounceAnimation = () => {
+        clickHereElement.animate(
+            [
+                { transform: 'matrix(1, 0, 0, 1, 194.25, 185)' },
+                { transform: 'matrix(1, 0, 0, 1, 194.25, 170)' },
+                { transform: 'matrix(1, 0, 0, 1, 194.25, 185)' }
+            ],
+            {
+                duration: 1000,
+                iterations: 6
+            }
+        );
+    };
 })
